@@ -51,6 +51,27 @@ followed by
 ![Screenshot](/../screenshots/MMM-MyScoreboard-screenshot.png?raw=true "Screenshot")
 
 
+
+## Standalone desktop widget mode
+
+If you want to run this project as a desktop widget (without MagicMirror), a lightweight web widget is included.
+
+1. Copy the example config:
+   ```bash
+   cp desktop-widget/config.example.json desktop-widget/config.json
+   ```
+2. Edit `desktop-widget/config.json` and set your leagues/teams (for example, NBA teams like `TOR`, `LAL`, `BOS`).
+3. Start the widget server:
+   ```bash
+   npm run widget:start
+   ```
+4. Open `http://127.0.0.1:7399` in a browser, or load that URL in your preferred desktop widget host (e.g. an always-on-top browser window).
+
+You can override defaults with environment variables:
+- `MYSCOREBOARD_WIDGET_CONFIG` (path to your config JSON)
+- `MYSCOREBOARD_WIDGET_PORT` (port, default `7399`)
+
+
 ## Installation
 
 1. Navigate into your MagicMirror `modules` folder and execute<br>

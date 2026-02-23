@@ -1,0 +1,19 @@
+{
+  "title": "My Scoreboard",
+  "refreshMs": 120000,
+  "rolloverHours": 3,
+  "sports": [
+    {
+      "league": "NHL",
+      "teams": ["TOR", "MTL", "NYR"]
+    },
+    {
+      "league": "NFL",
+      "teams": ["BUF", "NYJ"]
+    },
+    {
+      "league": "NBA",
+      "teams": ["TOR", "LAL", "BOS"]
+    }
+  ]
+}
