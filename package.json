@@ -1,7 +1,7 @@
 {
   "name": "mmm-myscoreboard",
   "version": "1.0.0",
-  "description": "Sports module for MagicMirror2",
+  "description": "Sports module for MagicMirror2 with a standalone desktop widget preview",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jclarke0000/MMM-MyScoreboard.git"
@@ -22,5 +22,8 @@
     "directory-tree": "^3.3.1",
     "json-parse-async": "^1.0.3",
     "moment-timezone": "^0.5.37"
+  },
+  "scripts": {
+    "widget:start": "node desktop-widget/start.js"
   }
 }
